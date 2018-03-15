@@ -14,6 +14,7 @@ body {
 
 .well {
   margin-top: 20px;
+  margin-bottom: 5px;
   padding: 10px 30px;
   border-radius: 0;
 }
@@ -25,13 +26,41 @@ body {
   margin-bottom: 0;
 }
 .well-nav-list {
-  margin-top: 12px;
+  margin-top: 5px;
 }
 .well-nav-list ul {
   padding: 0;
 }
 
 .panel{
+  border-radius: 0;
+}
+
+.green-col {
+  padding-right: 2px;
+}
+
+.green-bg {
+  background-color: #f5fffa;
+}
+
+.green-bg .panel-heading {
+  background-color: #cef2e0;
+  color: black;
+  border: 1px solid #a3bfb1;
+}
+
+.panel-heading .panel-title {
+  font-weight: bold;
+}
+
+.blue-col {
+  padding-left: 2px;
+}
+
+.panel-heading {
+  margin: 10px;
+  padding: 5px 15px;
   border-radius: 0;
 }
 .panel-body ul{
