@@ -7,20 +7,17 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Talk</a></li>
-          <li><a href="#">Contributions</a></li>
-          <li><a href="#">Create Account</a></li>
-          <li><a href="#">Log in</a></li>
-        </ul>
-        <p class="navbar-text navbar-right">Not logged in</p>
-      </div>
-    </nav>
-    <div class="container">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Talk</a></li>
+        <li><a href="#">Contributions</a></li>
+        <li><a href="#">Create Account</a></li>
+        <li><a href="#">Log in</a></li>
+      </ul>
+      <p class="navbar-text navbar-right">Not logged in</p>
       <div class="row">
         <div class="col-md-2">
+          <img src="imgs/enwiki.png" alt="Wikipedia logo">
           <ul>
             <li><a href="#">Main page</a></li>
             <li><a href="#">Contents</a></li>
@@ -29,6 +26,22 @@
             <li><a href="#">Random article</a></li>
             <li><a href="#">Donate to Wikipedia</a></li>
             <li><a href="#">Wikipedia store</a></li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#">Main Page</a></li>
+            <li role="presentation"><a href="#">Talk</a></li>
+            <li role="presentation" class="pull-right">
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Search Wikipedia" class="form-control">
+                </div>
+              </form>
+            </li>
+            <li role="presentation" class="pull-right"><a href="#">View history</a></li>
+            <li role="presentation" class="pull-right"><a href="#">View source</a></li>
+            <li role="presentation" class="pull-right"><a href="#">Read</a></li>
           </ul>
         </div>
       </div>
