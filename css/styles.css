@@ -50,6 +50,9 @@ body {
   border: 1px solid #a3bfb1;
 }
 
+.panel-primary {
+  background-color: #f5faff;
+}
 .panel-heading .panel-title {
   font-weight: bold;
 }
